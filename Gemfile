@@ -13,7 +13,6 @@ gem 'chartkick', '~> 3.3.0'
 gem 'devise'
 gem 'foreman'
 gem 'groupdate'
-gem 'importmap-rails'
 gem 'jbuilder'
 gem 'json', '2.7.1'
 gem 'kaminari'
@@ -23,9 +22,12 @@ gem 'puma', '~> 5.0'
 gem 'rack-cors', require: 'rack/cors'
 gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
 gem 'ransack', '< 4.0'
+# Use Redis adapter to run Action Cable in production
+gem 'redis', '~> 4.0'
 gem 'rswag-api'
 gem 'rswag-ui'
 gem 'sassc'
+gem 'sidekiq', '~> 7.2'
 gem 'simple_form'
 gem 'simple_form-tailwind'
 gem 'sprockets-rails'
@@ -39,7 +41,7 @@ gem 'yaml'
 gem 'devise_token_auth'
 
 # Rails Ui
-gem "railsui", github: "getrailsui/railsui"
+gem 'railsui', github: 'getrailsui/railsui'
 
 group :development, :test do
   gem 'annotate'
@@ -84,3 +86,6 @@ group :test do
 end
 
 gem 'sidekiq', '~> 7.2'
+
+# Use Redis for Action Cable
+gem 'redis', '~> 4.0'

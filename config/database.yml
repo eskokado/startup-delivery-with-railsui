@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: startup_delivery_development
+  database: startup_delivery_with_railsui_development
 
 test:
   <<: *default
-  database: startup_delivery_test
+  database: startup_delivery_with_railsui_test
 
 production:
   <<: *default
-  database: startup_delivery_production
+  database: startup_delivery_with_railsui_production
