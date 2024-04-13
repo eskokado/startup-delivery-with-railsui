@@ -85,8 +85,3 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
-
-gem 'sidekiq', '~> 7.2'
-
-# Use Redis for Action Cable
-gem 'redis', '~> 4.0'
