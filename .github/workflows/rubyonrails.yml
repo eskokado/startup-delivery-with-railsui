@@ -35,8 +35,13 @@ jobs:
           ruby-version: '2.7.5'
           bundler: default
           bundler-cache: true
+
       - name: Set up Database
         run: bin/rails db:migrate
+
+      - name: Precompile assets
+        run: bin/rails assets:precompile
+
       - name: Run Tests
         run: bundle exec rspec --exclude-pattern 'spec/features/**/*_spec.rb' --format progress
       - uses: joshmfrankel/simplecov-check-action@main
