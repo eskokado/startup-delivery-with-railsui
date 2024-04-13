@@ -36,6 +36,12 @@ jobs:
           bundler: default
           bundler-cache: true
 
+      - name: Install Yarn and dependencies
+        run: npm install -g yarn && yarn install
+
+      - name: Build Tailwind CSS
+        run: yarn build:css
+
       - name: Set up Database
         run: bin/rails db:migrate
 
