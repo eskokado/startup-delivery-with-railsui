@@ -4,9 +4,9 @@ RSpec.describe PageController, type: :controller do
   render_views
 
   actions_with_admin_layout = %i[
-    integrations team billing notifications settings
-    activity profile people calendar assignments message
-    messages project projects dashboard
+    integrations team billing notifications settings activity
+    profile people calendar assignments message messages
+    project projects dashboard
   ]
 
   actions_with_admin_layout.each do |action|
