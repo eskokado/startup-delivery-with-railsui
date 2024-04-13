@@ -36,8 +36,8 @@ jobs:
           bundler: default
           bundler-cache: true
 
-      - name: Install Yarn and dependencies
-        run: npm install -g yarn && yarn install
+      - name: Install Node.js dependencies
+        run: npm install
 
       - name: Build Tailwind CSS
         run: yarn build:css
