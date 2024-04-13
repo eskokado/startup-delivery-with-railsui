@@ -38,6 +38,9 @@ gem 'yaml'
 # Auth
 gem 'devise_token_auth'
 
+# Rails Ui
+gem "railsui", github: "getrailsui/railsui"
+
 group :development, :test do
   gem 'annotate'
   gem 'binding_of_caller'
