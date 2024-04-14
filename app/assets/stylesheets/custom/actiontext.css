@@ -71,7 +71,7 @@ trix-toolbar .trix-button.trix-button--dialog {
 
 /* prose style content */
 trix-editor {
-  @apply rounded border border-slate-300 focus:ring-4 focus:ring-indigo-50 focus:border-indigo-500 bg-white shadow-inner p-3 text-base dark:bg-slate-800 dark:text-white dark:focus:ring-indigo-500/20 dark:border-slate-700 !important;
+  @apply rounded border border-slate-300 focus:ring-4 focus:ring-indigo-50 focus:border-indigo-500 bg-white shadow-inner p-3 text-base dark:bg-slate-800 dark:text-white dark:focus:ring-indigo-500/20 !important;
 }
 
 trix-editor,

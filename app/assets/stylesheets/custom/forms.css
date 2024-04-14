@@ -32,7 +32,7 @@
   *  http://localhost:3000/railsui/systems/forms/inputs#forms-input-field
   */
   .form-input {
-    @apply px-3 py-2 border border-slate-300 shadow-inner bg-white font-normal text-base placeholder:text-slate-500 rounded block w-full focus:outline-none focus:ring-4 focus:ring-indigo-50 focus:border-indigo-500 text-slate-900 dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-indigo-500/30 dark:focus:border-slate-600 dark:text-white dark:placeholder:text-slate-400;
+    @apply px-3 py-2 border border-slate-300 shadow-inner bg-white font-normal text-base placeholder:text-slate-500 rounded block w-full focus:outline-none focus:ring-4 focus:ring-indigo-50 focus:border-indigo-500 text-slate-900 dark:bg-slate-800 dark:focus:ring-indigo-500/30 dark:focus:border-slate-600 dark:text-white dark:placeholder:text-slate-400;
 
     &[disabled] {
       @apply bg-slate-100/90 pointer-events-none select-none shadow-none cursor-not-allowed dark:bg-slate-800/90 dark:opacity-70;
@@ -69,7 +69,7 @@
 
     &::-webkit-color-swatch-wrapper,
     &::-webkit-color-swatch {
-      @apply p-0 rounded-full border-2 border-white dark:border-slate-700;
+      @apply p-0 rounded-full border-2 border-white;
     }
   }
 
@@ -161,7 +161,7 @@
   *  http://localhost:3000/railsui/systems/forms/selects#forms-select
   */
   .form-select {
-    @apply px-3 py-2 border border-slate-300 bg-white font-normal text-base placeholder:text-slate-500 rounded block w-full focus:outline-none focus:ring-4 focus:ring-indigo-50 focus:border-indigo-500 text-slate-900 dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-indigo-500/30 dark:focus:border-slate-600 dark:text-white dark:placeholder:text-slate-400 shadow-sm;
+    @apply px-3 py-2 border border-slate-300 bg-white font-normal text-base placeholder:text-slate-500 rounded block w-full focus:outline-none focus:ring-4 focus:ring-indigo-50 focus:border-indigo-500 text-slate-900 dark:bg-slate-800 dark:focus:ring-indigo-500/30 dark:focus:border-slate-600 dark:text-white dark:placeholder:text-slate-400 shadow-sm;
 
     &[disabled] {
       @apply bg-slate-100/90 pointer-events-none select-none shadow-none cursor-not-allowed dark:bg-slate-800/90 dark:opacity-70;
